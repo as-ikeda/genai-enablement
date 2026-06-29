@@ -106,6 +106,42 @@ git push -u origin docs/example
 git push
 ```
 
+
+## PRマージ後のブランチ整理
+
+### GitHub側
+
+Pull Requestをマージしたら、画面に表示される`Delete branch`を押す。
+
+### ローカル側
+
+```powershell
+git switch main
+git pull --ff-only
+git fetch --prune
+git branch -d docs/example
+```
+
+### コマンドの意味
+
+| コマンド | 意味 |
+| --- | --- |
+| `git switch main` | 安定版ブランチへ戻る |
+| `git pull --ff-only` | GitHubのmainをローカルへ取り込む |
+| `git fetch --prune` | GitHubで削除済みのブランチ情報をローカルにも反映する |
+| `git branch -d docs/example` | マージ済みのローカル作業ブランチを削除する |
+
+`-d`は安全削除なので、未マージなら削除されない。
+
+### 今回の例
+
+```powershell
+git switch main
+git pull --ff-only
+git fetch --prune
+git branch -d docs/git-workflow
+```
+
 ## よくある場面
 
 ### 作業前の定番

@@ -5,6 +5,8 @@
 - [プロジェクト計画](00_Project/PROJECT_PLAN.md)
 - [タスク管理](00_Project/TASKS.md)
 - [週次レビュー](00_Project/WEEKLY_REVIEW.md)
+- [Git運用方針](00_Project/GIT_WORKFLOW.md)
+- [Gitコマンド早見表](00_Project/GIT_COMMAND_CHEATSHEET.md)
 
 ## 学習・試験対策
 
@@ -25,4 +27,5 @@
 
 - [成果物計画](04_Output/OUTPUT_PLAN.md)
 - [AI活用ガイド: Codexで学習計画をPJ化する](04_Output/AI活用ガイド_Codexで学習計画をPJ化する.md)
+- [AI活用ガイド: 資格学習PJでGitも学ぶ](04_Output/AI活用ガイド_資格学習PJでGitも学ぶ.md)
 - [参考資料](01_Reference/README.md)

@@ -8,10 +8,16 @@
 
 ## Next
 
+- [ ] VAEとGANの違いを比較表にする
+- [ ] RNN・LSTM・Transformerの違いを比較表にする
+- [ ] AttentionとSelf-Attentionを整理する
+- [ ] GPT・BERT・RoBERTa・ALBERTの関係を整理する
+- [ ] ChatGPT・InstructGPT・RLHFの流れを整理する
+
 - [ ] 強化学習の価値・報酬・方策を再整理する
 - [ ] AIレベル1-4の分類と代表例を表にする
 - [ ] 第1章の誤答5問を再確認する
-- [ ] 第2章 生成AIの基礎・技術要素に着手する
+- [x] 第2章 生成AIの基礎・技術要素に着手する
 
 - [ ] Git運用方針を確認する
 - [ ] GitHub上でPull Request運用を試す

@@ -8,6 +8,11 @@
 
 ## Next
 
+- [ ] OpenAI系モデルの系譜を比較表にする
+- [ ] Sora・Operator・Codex・GPTs・Code Interpreterを機能別に整理する
+- [ ] Gemini・Claude・Copilotを提供会社・強み・用途で比較する
+- [ ] 2026-07-01〜07-09の不明用語を用語集化する
+- [ ] 第2章の確認問題を実施する
 - [ ] VAEとGANの違いを比較表にする
 - [ ] RNN・LSTM・Transformerの違いを比較表にする
 - [ ] AttentionとSelf-Attentionを整理する
@@ -23,7 +28,7 @@
 - [ ] GitHub上でPull Request運用を試す
 - [ ] 資格学習Git入門ガイドを社内展開用に整える
 
-- [ ] GUGA LINEクイズを試す
+- [x] GUGA LINEクイズを試す
 - [ ] 実務で使っている生成AI活用例を棚卸しする
 - [ ] 社内勉強会の対象者とゴールを決める
 
